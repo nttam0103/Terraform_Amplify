@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create Amplify app 
 resource "aws_amplify_app" "my-app" {
-  name                     = "demo-app"
+  name                     = "responsive-ui-blogs-app-wnuxt"
   repository               = var.repository_name
   access_token             = var.github_access_token
   enable_branch_auto_build = true
